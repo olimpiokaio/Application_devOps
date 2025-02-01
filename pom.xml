@@ -95,14 +95,15 @@
 
 	<distributionManagement>
 		<repository>
-			<id>central</id>
-			<name>49ec81db94c2-releases</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-release-local</url>
+			<id>nexus</id>
+			<name>maven-releases</name>
+			<url>http://ec2-18-117-232-163.us-east-2.compute.amazonaws.com:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshots</id>
-			<name>49ec81db94c2-snapshots</name>
-			<url>http://artifactory.springframework.guru/artifactory/libs-snapshot-local</url>
+			<id>nexus</id>
+			<name>maven-snapshots</name>
+			<url>http://ec2-18-117-232-163.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
+
 </project>
